@@ -1,0 +1,56 @@
+[gd_resource type="Theme" format=3 uid="uid://ehrdipkhtct5"]
+
+[ext_resource type="Texture2D" uid="uid://bd12kgk3ggijw" path="res://assets/Sprite.png" id="1_5h2y0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_032fp"]
+atlas = ExtResource("1_5h2y0")
+region = Rect2(677, 102, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1l46r"]
+texture = SubResource("AtlasTexture_032fp")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ujf4h"]
+atlas = ExtResource("1_5h2y0")
+region = Rect2(677, 102, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mp7mn"]
+texture = SubResource("AtlasTexture_ujf4h")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tpdf0"]
+atlas = ExtResource("1_5h2y0")
+region = Rect2(645, 100, 22, 24)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_67a8a"]
+texture = SubResource("AtlasTexture_tpdf0")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cd7pu"]
+atlas = ExtResource("1_5h2y0")
+region = Rect2(677, 70, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0ld40"]
+texture = SubResource("AtlasTexture_cd7pu")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h3bqb"]
+atlas = ExtResource("1_5h2y0")
+region = Rect2(677, 70, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_y6bui"]
+texture = SubResource("AtlasTexture_h3bqb")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rj802"]
+atlas = ExtResource("1_5h2y0")
+region = Rect2(645, 68, 22, 24)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2e5w7"]
+texture = SubResource("AtlasTexture_rj802")
+
+[resource]
+GameButton/base_type = &"Button"
+GameButton/styles/focus = SubResource("StyleBoxTexture_1l46r")
+GameButton/styles/hover = SubResource("StyleBoxTexture_mp7mn")
+GameButton/styles/hover_mirrored = null
+GameButton/styles/normal = SubResource("StyleBoxTexture_67a8a")
+PauseButton/base_type = &"Button"
+PauseButton/styles/focus = SubResource("StyleBoxTexture_0ld40")
+PauseButton/styles/hover = SubResource("StyleBoxTexture_y6bui")
+PauseButton/styles/normal = SubResource("StyleBoxTexture_2e5w7")

@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dih117v6g65pr"]
+
+[ext_resource type="Script" uid="uid://bhimdpqgfs6xi" path="res://scripts/float_text.gd" id="1_jnpgm"]
+
+[node name="FloatText" type="Label" unique_id=899552542]
+text = "+1"
+script = ExtResource("1_jnpgm")

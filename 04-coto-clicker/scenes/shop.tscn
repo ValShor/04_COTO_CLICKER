@@ -1,0 +1,500 @@
+[gd_scene format=4 uid="uid://cyqi8eh6mvaq2"]
+
+[ext_resource type="Theme" uid="uid://cw57gemhoeqp" path="res://assets/new_theme.tres" id="1_1l46r"]
+[ext_resource type="Script" uid="uid://2po1bealwiw" path="res://scenes/shop.gd" id="2_2fc2m"]
+[ext_resource type="Texture2D" uid="uid://b7aht4piritmm" path="res://assets/grass.png" id="2_032fp"]
+[ext_resource type="Texture2D" uid="uid://bd12kgk3ggijw" path="res://assets/Sprite.png" id="3_2fc2m"]
+[ext_resource type="StyleBox" uid="uid://bslc1wr7hyn42" path="res://tres/new_style_box_texture.tres" id="5_8r1wq"]
+[ext_resource type="StyleBox" uid="uid://blegpjj4aadgl" path="res://tres/new_style_box_texture2.tres" id="6_ajxib"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8r1wq"]
+texture = ExtResource("2_032fp")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+0:11/0 = 0
+1:11/0 = 0
+2:11/0 = 0
+3:11/0 = 0
+4:11/0 = 0
+5:11/0 = 0
+6:11/0 = 0
+7:11/0 = 0
+0:12/0 = 0
+1:12/0 = 0
+2:12/0 = 0
+3:12/0 = 0
+4:12/0 = 0
+5:12/0 = 0
+6:12/0 = 0
+7:12/0 = 0
+0:13/0 = 0
+1:13/0 = 0
+2:13/0 = 0
+3:13/0 = 0
+4:13/0 = 0
+5:13/0 = 0
+6:13/0 = 0
+7:13/0 = 0
+8:13/0 = 0
+9:13/0 = 0
+0:14/0 = 0
+1:14/0 = 0
+2:14/0 = 0
+3:14/0 = 0
+4:14/0 = 0
+5:14/0 = 0
+6:14/0 = 0
+7:14/0 = 0
+8:14/0 = 0
+9:14/0 = 0
+0:15/0 = 0
+1:15/0 = 0
+2:15/0 = 0
+3:15/0 = 0
+4:15/0 = 0
+5:15/0 = 0
+6:15/0 = 0
+7:15/0 = 0
+8:15/0 = 0
+9:15/0 = 0
+0:16/0 = 0
+1:16/0 = 0
+2:16/0 = 0
+3:16/0 = 0
+4:16/0 = 0
+5:16/0 = 0
+6:16/0 = 0
+7:16/0 = 0
+8:16/0 = 0
+9:16/0 = 0
+0:17/0 = 0
+1:17/0 = 0
+2:17/0 = 0
+3:17/0 = 0
+4:17/0 = 0
+5:17/0 = 0
+6:17/0 = 0
+7:17/0 = 0
+8:17/0 = 0
+9:17/0 = 0
+0:18/0 = 0
+1:18/0 = 0
+2:18/0 = 0
+3:18/0 = 0
+4:18/0 = 0
+5:18/0 = 0
+6:18/0 = 0
+7:18/0 = 0
+8:18/0 = 0
+9:18/0 = 0
+0:19/0 = 0
+1:19/0 = 0
+2:19/0 = 0
+3:19/0 = 0
+4:19/0 = 0
+5:19/0 = 0
+6:19/0 = 0
+7:19/0 = 0
+8:19/0 = 0
+9:19/0 = 0
+0:20/0 = 0
+1:20/0 = 0
+2:20/0 = 0
+3:20/0 = 0
+4:20/0 = 0
+5:20/0 = 0
+6:20/0 = 0
+7:20/0 = 0
+8:20/0 = 0
+9:20/0 = 0
+0:21/0 = 0
+1:21/0 = 0
+2:21/0 = 0
+3:21/0 = 0
+4:21/0 = 0
+5:21/0 = 0
+6:21/0 = 0
+7:21/0 = 0
+8:21/0 = 0
+9:21/0 = 0
+0:22/0 = 0
+1:22/0 = 0
+2:22/0 = 0
+3:22/0 = 0
+4:22/0 = 0
+5:22/0 = 0
+6:22/0 = 0
+7:22/0 = 0
+8:22/0 = 0
+9:22/0 = 0
+0:23/0 = 0
+1:23/0 = 0
+2:23/0 = 0
+3:23/0 = 0
+4:23/0 = 0
+5:23/0 = 0
+6:23/0 = 0
+7:23/0 = 0
+8:23/0 = 0
+9:23/0 = 0
+0:24/0 = 0
+1:24/0 = 0
+2:24/0 = 0
+3:24/0 = 0
+4:24/0 = 0
+5:24/0 = 0
+6:24/0 = 0
+7:24/0 = 0
+8:24/0 = 0
+9:24/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_svnoa"]
+sources/0 = SubResource("TileSetAtlasSource_8r1wq")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nm684"]
+atlas = ExtResource("3_2fc2m")
+region = Rect2(657, 210, 14, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ur327"]
+atlas = ExtResource("3_2fc2m")
+region = Rect2(628, 115, 7, 10)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1l46r"]
+atlas = ExtResource("3_2fc2m")
+region = Rect2(690, 194, 12, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_032fp"]
+atlas = ExtResource("3_2fc2m")
+region = Rect2(627, 209, 10, 14)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2fc2m"]
+load_path = "res://.godot/imported/Sprite.png-b4fe126ea294504569a6b546731f793b.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8r1wq"]
+atlas = SubResource("CompressedTexture2D_2fc2m")
+region = Rect2(690, 211, 12, 11)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5rx5s"]
+atlas = ExtResource("3_2fc2m")
+region = Rect2(677, 166, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_c5ksq"]
+texture = SubResource("AtlasTexture_5rx5s")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lrt6s"]
+atlas = ExtResource("3_2fc2m")
+region = Rect2(677, 166, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_spadc"]
+texture = SubResource("AtlasTexture_lrt6s")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kp8sw"]
+atlas = ExtResource("3_2fc2m")
+region = Rect2(645, 164, 22, 24)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oy14b"]
+texture = SubResource("AtlasTexture_kp8sw")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ujf4h"]
+atlas = ExtResource("3_2fc2m")
+region = Rect2(677, 102, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_osw3t"]
+texture = SubResource("AtlasTexture_ujf4h")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bcqbf"]
+atlas = ExtResource("3_2fc2m")
+region = Rect2(677, 102, 22, 22)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_67a8a"]
+texture = SubResource("AtlasTexture_bcqbf")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8f417"]
+atlas = ExtResource("3_2fc2m")
+region = Rect2(645, 100, 22, 24)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tpdf0"]
+texture = SubResource("AtlasTexture_8f417")
+
+[sub_resource type="Theme" id="Theme_mp7mn"]
+ButtonRuletka/base_type = &"Button"
+ButtonRuletka/styles/focus = SubResource("StyleBoxTexture_c5ksq")
+ButtonRuletka/styles/hover = SubResource("StyleBoxTexture_spadc")
+ButtonRuletka/styles/normal = SubResource("StyleBoxTexture_oy14b")
+GameButton/base_type = &"Button"
+GameButton/styles/focus = SubResource("StyleBoxTexture_osw3t")
+GameButton/styles/hover = SubResource("StyleBoxTexture_67a8a")
+GameButton/styles/normal = SubResource("StyleBoxTexture_tpdf0")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8i161"]
+atlas = ExtResource("3_2fc2m")
+region = Rect2(628, 115, 7, 10)
+
+[node name="Shop" type="Control" unique_id=595158847 node_paths=PackedStringArray("coin_label", "upgrade_container")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_1l46r")
+script = ExtResource("2_2fc2m")
+coin_label = NodePath("PanelContainer/Label")
+upgrade_container = NodePath("VBoxContainer")
+
+[node name="Background" type="TileMapLayer" parent="." unique_id=540535682]
+tile_map_data = PackedByteArray("AAAAAAAAAAAAAA0AAAAAAAEAAAAAAA0AAAAAAAIAAAAAAA4AAAAAAAMAAAAAAA8AAAAAAAQAAAAAABAAAAAAAAUAAAAAABEAAAAAAAYAAAAAABIAAAAAAAcAAAAAABMAAAAAAAgAAAAAABQAAAAAAAkAAAAAABUAAAAAAAoAAAAAABYAAAAAAAsAAAAAAA0AAAABAAAAAAABAA0AAAABAAEAAAABAA0AAAABAAIAAAABAA4AAAABAAMAAAABAA8AAAABAAQAAAABABAAAAABAAUAAAABABEAAAABAAYAAAABABIAAAABAAcAAAABABMAAAABAAgAAAABABQAAAABAAkAAAABABUAAAABAAoAAAABABYAAAABAAsAAAABAA0AAAACAAAAAAACAA0AAAACAAEAAAACAA0AAAACAAIAAAACAA4AAAACAAMAAAACAA8AAAACAAQAAAACABAAAAACAAUAAAACABEAAAACAAYAAAACABIAAAACAAcAAAACABMAAAADAAAAAAADAA0AAAADAAEAAAADAA0AAAADAAIAAAADAA4AAAADAAMAAAADAA8AAAADAAQAAAADABAAAAADAAUAAAADABEAAAADAAYAAAADABIAAAADAAcAAAADABMAAAADAAgAAAADABQAAAADAAkAAAADABUAAAADAAoAAAADABYAAAADAAsAAAADAA0AAAAEAAAAAAAEAA0AAAAEAAEAAAAEAA0AAAAEAAIAAAAEAA4AAAAEAAMAAAAEAA8AAAAEAAQAAAAEABAAAAAEAAUAAAAEABEAAAAEAAYAAAAEABIAAAAEAAcAAAAEABMAAAAEAAgAAAAEABQAAAAEAAkAAAAEABUAAAAEAAoAAAAEABYAAAAEAAsAAAAAAA0AAAAFAAAAAAAAAA0AAAAFAAEAAAAAAA0AAAAFAAIAAAAAAA4AAAAFAAMAAAAAAA8AAAAFAAQAAAAAABAAAAAFAAUAAAAAABEAAAAFAAYAAAAAABIAAAAFAAcAAAAAABMAAAAFAAgAAAAAABQAAAAFAAkAAAAAABUAAAAFAAoAAAAAABYAAAAFAAsAAAABAA0AAAAGAAAAAAABAA0AAAAGAAEAAAABAA0AAAAGAAIAAAABAA4AAAAGAAMAAAABAA8AAAAGAAQAAAABABAAAAAGAAUAAAABABEAAAAGAAYAAAABABIAAAAGAAcAAAABABMAAAAGAAgAAAABABQAAAAGAAkAAAABABUAAAAGAAoAAAABABYAAAAGAAsAAAACAA0AAAAHAAAAAAACAA0AAAAHAAEAAAACAA0AAAAHAAIAAAACAA4AAAAHAAMAAAACAA8AAAAHAAQAAAACABAAAAAHAAUAAAACABEAAAAHAAYAAAACABIAAAAHAAcAAAACABMAAAAHAAgAAAACABQAAAAHAAkAAAACABUAAAAHAAoAAAACABYAAAAHAAsAAAADAA0AAAAAAAwAAAAAAA4AAAABAAwAAAABAA4AAAADAAwAAAADAA4AAAAEAAwAAAAAAA4AAAAFAAwAAAABAA4AAAAGAAwAAAACAA4AAAAHAAwAAAADAA4AAAACAAgAAAACABQAAAACAAkAAAACABUAAAACAAoAAAACABYAAAACAAsAAAACAA0AAAACAAwAAAACAA4AAAAAAA0AAAAAAA8AAAABAA0AAAABAA8AAAACAA0AAAACAA8AAAADAA0AAAADAA8AAAAEAA0AAAAAAA8AAAAFAA0AAAABAA8AAAAGAA0AAAACAA8AAAAHAA0AAAADAA8AAAA=")
+tile_set = SubResource("TileSet_svnoa")
+metadata/_edit_group_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1290197289]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 9.0
+offset_top = 42.0
+offset_right = 9.0
+offset_bottom = 11.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=1132804473]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer" unique_id=4430160]
+layout_mode = 2
+texture = SubResource("AtlasTexture_nm684")
+stretch_mode = 5
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/HBoxContainer" unique_id=51538753]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/PanelContainer" unique_id=1443543041]
+layout_mode = 2
+text = "2з/сек"
+
+[node name="Button10" type="Button" parent="VBoxContainer/HBoxContainer" unique_id=835963751]
+custom_minimum_size = Vector2(1, 0)
+layout_mode = 2
+theme_override_styles/normal = ExtResource("5_8r1wq")
+theme_override_styles/pressed = ExtResource("6_ajxib")
+theme_override_styles/disabled = ExtResource("6_ajxib")
+text = "10"
+icon = SubResource("AtlasTexture_ur327")
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer" unique_id=1294912807]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer2" unique_id=621669088]
+layout_mode = 2
+texture = SubResource("AtlasTexture_1l46r")
+stretch_mode = 5
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/HBoxContainer2" unique_id=1973371459]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer2/PanelContainer" unique_id=542239925]
+layout_mode = 2
+text = "4з/сек"
+
+[node name="Button30" type="Button" parent="VBoxContainer/HBoxContainer2" unique_id=809023269]
+custom_minimum_size = Vector2(1, 0)
+layout_mode = 2
+text = "30"
+icon = SubResource("AtlasTexture_ur327")
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="VBoxContainer" unique_id=871726158]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer3" unique_id=2111315529]
+layout_mode = 2
+texture = SubResource("AtlasTexture_032fp")
+stretch_mode = 5
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/HBoxContainer3" unique_id=264917145]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer3/PanelContainer" unique_id=897806230]
+layout_mode = 2
+text = "авто 3"
+
+[node name="Button150" type="Button" parent="VBoxContainer/HBoxContainer3" unique_id=701353237]
+custom_minimum_size = Vector2(1, 0)
+layout_mode = 2
+text = "150"
+icon = SubResource("AtlasTexture_ur327")
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="VBoxContainer" unique_id=1451520148]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer4" unique_id=1063402713]
+layout_mode = 2
+texture = SubResource("AtlasTexture_8r1wq")
+stretch_mode = 5
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/HBoxContainer4" unique_id=1879211000]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer4/PanelContainer" unique_id=2129268517]
+layout_mode = 2
+text = "6з/сек"
+
+[node name="Button250" type="Button" parent="VBoxContainer/HBoxContainer4" unique_id=533610356]
+custom_minimum_size = Vector2(1, 0)
+layout_mode = 2
+text = "250"
+icon = SubResource("AtlasTexture_ur327")
+
+[node name="Button" type="Button" parent="." unique_id=106423863]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 2.0
+offset_right = 29.0
+offset_bottom = 28.866665
+theme = SubResource("Theme_mp7mn")
+theme_type_variation = &"GameButton"
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1360740885]
+layout_mode = 0
+offset_left = 73.0
+offset_top = 1.0
+offset_right = 125.0
+offset_bottom = 32.0
+
+[node name="TextureRect2" type="TextureRect" parent="PanelContainer" unique_id=185514478]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+texture = SubResource("AtlasTexture_8i161")
+
+[node name="Label" type="Label" parent="PanelContainer" unique_id=533949517]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("1_1l46r")
+text = "0"
+
+[node name="ButtonRuletka" type="Button" parent="." unique_id=2020852278]
+layout_mode = 0
+offset_left = 15.0
+offset_top = 183.0
+offset_right = 115.0
+offset_bottom = 203.0
+theme_override_font_sizes/font_size = 9
+text = "Сыграть в рулетку - 50 монет"
+
+[node name="Label" type="Label" parent="." unique_id=1941009889]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 204.0
+offset_right = 114.0
+offset_bottom = 211.0
+theme_override_font_sizes/font_size = 6
+text = "Выигрыш - +300 монет, проигрыш - обнуление монет"
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Button10" to="." method="_on_button_10_pressed" binds= [NodePath("VBoxContainer/HBoxContainer/Button10"), 10, 2]]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer2/Button30" to="." method="_on_button_30_pressed" binds= [NodePath("VBoxContainer/HBoxContainer2/Button30"), 30, 4]]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer3/Button150" to="." method="_on_auto_level_coin_button_pressed" binds= [NodePath("VBoxContainer/HBoxContainer3/Button150")]]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer4/Button250" to="." method="_on_button_250_pressed" binds= [NodePath("VBoxContainer/HBoxContainer4/Button250"), 250, 6]]
+[connection signal="pressed" from="Button" to="." method="_on_down_button_pressed"]
+[connection signal="pressed" from="ButtonRuletka" to="." method="_on_button_ruletka_pressed"]
